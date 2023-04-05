@@ -51,4 +51,11 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    const signIn = document.querySelector('#signIn')
+    document.querySelector('#start').addEventListener('click', sign)
+    function sign() {
+        signIn.style.opacity = 1;
+        signIn.style.visibility = 'visible';
+    }
+
 });
